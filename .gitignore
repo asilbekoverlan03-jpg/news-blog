@@ -1,0 +1,43 @@
+# ─── Python / Django ──────────────────────────────────────────────────────────
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Секреты и локальная конфигурация
+.env
+*.env
+
+# База данных (локальная)
+db.sqlite3
+
+# Медиафайлы (загружаются пользователями, не хранятся в репозитории)
+media/
+
+# Статика (генерируется командой collectstatic)
+staticfiles/
+
+# ─── Node / React ─────────────────────────────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+
+# ─── IDE / OS ─────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.lnk
+.DS_Store
+Thumbs.db
+
+# Случайные файлы-ярлыки браузера (длинные имена без расширения)
+frontend/src/Embrace*
