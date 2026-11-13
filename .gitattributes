@@ -1,1 +1,9 @@
-frontend/** linguist-vendored
+# Скрываем весь frontend из статистики языков GitHub —
+# linguist-vendored убирает файлы из подсчёта, linguist-detectable=false
+# гарантирует что они не влияют на итоговую языковую плашку.
+frontend/**        linguist-vendored
+frontend/**        linguist-detectable=false
+
+# Явно помечаем Python-файлы как определяющие язык проекта
+*.py               linguist-detectable=true
+*.py               linguist-language=Python
